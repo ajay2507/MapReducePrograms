@@ -1,0 +1,43 @@
+1.Set up Hadoop in Ubuntu OS
+Open Eclipse and import all the required Hadoop jars
+
+2.Create a java project in Eclipse
+3.import the DocWordCount.java class
+
+4.Download the canterbury input files
+
+5.Edit the Run configuration and pass the arguments of the input files
+as input space output
+
+ex: /home/user/Downloads/input /home/user/Downloads/DocWordCount.out
+
+6.Run the java file by clicking Run As -> Java Project
+
+7. For TermFrequency.java class
+ pass the arguments as /home/user/Downloads/input /home/user/Downloads/TermFrequency.out
+
+8. For TFIDF.java class
+  pass the arguments /home/user/Downloads/input /home/user/Downloads/Term /home/user/Downloads/TFIDF.out
+
+9. For Search.java class
+  1st Query
+  pass the arguments as /home/user/Downloads/TFIDF.out /home/user/Downloads/query1.out "computer science"
+
+  2nd Query
+  pass the arguments as /home/user/Downloads/TFIDF.out /home/user/Downloads/query2.out "data analysis"
+
+
+10. For Rank.java class
+   
+   1st Query
+   /home/user/Downloads/query1.out /home/user/Downloads/query1-rank.out
+
+   2nd Query
+   /home/user/Downloads/query2.out /home/user/Downloads/query2-rank.out
+
+
+
+NOTE: Replace input and output path as per convenient
+
+
+
