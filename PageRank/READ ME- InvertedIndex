@@ -1,0 +1,7 @@
+1. hadoop -jar jarname classname argument1 argument2
+2. pass argument 1 as input file path
+3. pass argument 2 as output path
+4. Pass the input and output arguments as arguments  for Invertedindex.java file
+5. It will compute the inverted index for given arguments
+6. It will create the output folder and inverted index folder inside that particular folder 
+7. output file in which key as word and list of all document titles.

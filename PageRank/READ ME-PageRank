@@ -1,0 +1,10 @@
+Import all the files in eclipse in Ubuntu or run the hadoop commands to run the file
+create the jar will all input java files
+1. hadoop -jar jarname classname argument1 argument2
+argument1 as input path, argument2 as output path
+1. Run PageRankDriver class which acts as Main class for page rank computation
+2. Give input path as first argument and output path as second argument
+3. It will calculate and sort the documents based on page rank, Job deletes the intermediatory files4
+4. Caculation of page rank is iterated for 10 times.
+5. It will create a output folder in the output path where it will create output file
+6. output will be Title as key and final PageRank in values
